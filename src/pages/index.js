@@ -1,4 +1,5 @@
 import * as React from "react"
+import Helmet from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
@@ -24,8 +25,12 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <Seo title="All posts" />
+      <Helmet>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
       <Bio />
-      <ol style={{ listStyle: `none` }}>
+      <ol style={{ listStyle: `none`}}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 

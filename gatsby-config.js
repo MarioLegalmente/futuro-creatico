@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Futuro Creativo`,
     author: {
-      name: `Mario Fez Serrano`,
+      name: `Mario Fedz Serrano`,
       summary: `"Futuro Creativo: Explorando la Intersección de la Cultura, las Industrias Creativas y la Tecnología", explorar las sinergias entre la cultura, las industrias creativas y la tecnología, su impacto en la sociedad y en la economía.`,
     },
     description: `"Futuro Creativo: Explorando la Intersección de la Cultura, las Industrias Creativas y la Tecnología"`,
