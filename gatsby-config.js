@@ -6,8 +6,12 @@
 
 /**
  * @type {import('gatsby').GatsbyConfig}
+ * 
+ * 
+ * 
  */
 module.exports = {
+  pathPregitfix: `futuro-creativo`,
   siteMetadata: {
     title: `Futuro Creativo`,
     author: {
