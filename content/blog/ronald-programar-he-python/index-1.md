@@ -1,6 +1,6 @@
 ---
 title: Ronald Programar he Python
-date: 2023-02-05T00:09:17.035Z
+date: 2023-02-05T00:09:54.763Z
 description: I's to start in teh Backend
 ---
 <!--StartFragment-->
