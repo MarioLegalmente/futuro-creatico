@@ -6,27 +6,22 @@
 
 /**
  * @type {import('gatsby').GatsbyConfig}
- * 
- * 
- * 
- * 
  */
 module.exports = {
   siteMetadata: {
-    title: `Futuro Creativo`,
+    title: `Gatsby Starter Blog`,
     author: {
-      name: `Mario Fedz Serrano`,
-      summary: `"Futuro Creativo: Explorando la Intersección de la Cultura, las Industrias Creativas y la Tecnología", explorar las sinergias entre la cultura, las industrias creativas y la tecnología, su impacto en la sociedad y en la economía.`,
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `"Futuro Creativo: Explorando la Intersección de la Cultura, las Industrias Creativas y la Tecnología"`,
+    description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `@MarioLegalmente`,
+      twitter: `kylemathews`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
-    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
