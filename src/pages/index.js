@@ -26,7 +26,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Helmet>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Helmet>
 
       <Bio />
